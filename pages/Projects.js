@@ -1,8 +1,13 @@
-const Projects = () => {
+import Navbar from '../components/Navbar';
+
+const ProjectPage = () => {
 
   return (
-    <button>Projects</button>
+    <>
+    <Navbar />
+    <h1>Projects</h1>
+    </>
   )
 }
 
-export default Projects;
+export default ProjectPage;
