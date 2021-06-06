@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
-    },
+    "start": "next start",
+    "server": "npx nodemon server/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/21grahams/portfolio.git"
@@ -19,7 +20,11 @@
   },
   "homepage": "https://github.com/21grahams/portfolio#readme",
   "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
     "next": "^10.2.3",
+    "nodemon": "^2.0.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }
