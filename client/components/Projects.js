@@ -3,7 +3,7 @@ import React from 'react';
 const Projects = () => {
 
   return (
-    <button>Projects</button>
+    <button className='projectsText'>Projects</button>
   )
 }
 

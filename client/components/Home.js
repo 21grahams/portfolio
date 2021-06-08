@@ -17,7 +17,7 @@ function displayAbout() {
 }
 
 const Home = () => {
-  return <button>Home</button>;
+  return <button className='homepageText'>Home</button>;
 };
 
 export default Home;

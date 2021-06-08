@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-   <button>About Me</button>
+   <button className='aboutText'>About Me</button>
   )
 }
 
