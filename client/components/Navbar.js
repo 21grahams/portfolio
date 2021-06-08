@@ -1,4 +1,9 @@
-import Link from "next/Link";
+import React from "react";
+import Home from './Home';
+import About from './About';
+import Projects from './Projects';
+import Contact from './Contact';
+
 
 const Navbar = () => {
   const styles = {
@@ -10,18 +15,10 @@ const Navbar = () => {
 
   return (
     <div style={styles}>
-      <Link href="/home">
-        <button>Home</button>
-      </Link>
-      <Link href="/about">
-        <button>About Page</button>
-      </Link>
-      <Link href="/projects">
-        <button>Check Out My Projects</button>
-      </Link>
-      <Link href="/contact">
-        <button>Contact Me</button>
-      </Link>
+      <Home />
+      <About />
+      <Contact />
+      <Projects />
     </div>
   );
 };

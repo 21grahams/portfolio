@@ -4,9 +4,7 @@
   "description": "Graham Kirsh's Portfolio",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
     "react-dev": "webpack --watch",
-    "start": "next start",
     "server": "npx nodemon server/index.js"
   },
   "repository": {
@@ -24,7 +22,6 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mysql": "^2.18.1",
-    "next": "^10.2.3",
     "nodemon": "^2.0.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
