@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 3001;
 const path = require('path');
 const axios = require('axios');
 const cors = require('cors');
@@ -23,6 +23,9 @@ app.get('/', (req, res) => {
 })
 
 // post request
+app.post('/users', (req, res) => {
+  db.postUsers()
+})
 
 //=================================
 /////// Spin Up The Server ////////
