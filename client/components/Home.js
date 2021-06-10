@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 var sectionStyle = {
   width: "100%",
@@ -12,12 +12,11 @@ var sectionStyle = {
   backgroundSize: "cover",
 };
 
-function displayAbout() {
-  console.log("did we make it here?");
-}
-
 const Home = () => {
-  return <button className='homepageText'>Home</button>;
+
+  return (
+      <button className="homepageText">Home</button>
+  )
 };
 
 export default Home;
