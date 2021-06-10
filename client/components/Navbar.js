@@ -1,31 +1,13 @@
 import React from "react";
-import Home from './Home';
-import About from './About';
-import Projects from './Projects';
-import Contact from './Contact';
-
-var sectionStyle = {
-  width: "100%",
-  height: "850px",
-  backgroundImage:
-    "url(" +
-    "https://i.guim.co.uk/img/media/18fb1f1a96932fe4758a583bedc39f8a91c44359/0_300_4500_2700/master/4500.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=36537a5e176ebec6532f26ca444bd132" +
-    ")",
-  backgroundPosition: "center",
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-};
+import About from "../contents/About";
+import Contact from "../contents/Contact";
+import Education from "../contents/Education";
+import Home from "../contents/Home";
+import Projects from "../contents/Projects";
 
 const Navbar = () => {
-  const styles = {
-    display: "flex",
-    background: "grey",
-    justifyContent: "space-between",
-    padding: "1rem",
-  };
-
   return (
-    <div style={styles, sectionStyle}>
+    <div>
       <Home />
       <About />
       <Contact />
